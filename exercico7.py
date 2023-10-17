@@ -21,7 +21,6 @@ class Circulo(Forma):
     def calcular_area(self):
         return math.pi * (self.raio ** 2)
 
-# Exemplo de uso:
 retangulo = Retangulo(5, 4)
 circulo = Circulo(3)
 
