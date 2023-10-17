@@ -6,9 +6,6 @@ class Veiculo:
     def acelerar(self, valor):
         self.velocidade += valor
 
-    def desacelerar(self, valor):
-        self.velocidade -= valor
-
     def descricao(self):
         print(f"Este é um veículo do tipo {self.tipo} com velocidade de {self.velocidade} km/h.")
 
@@ -45,6 +42,6 @@ print(f"Nova velocidade do carro: {carro.velocidade}")
 carro.buzinar()
 
 moto.descricao()
-moto.desacelerar(10)
+moto.acelerar(20)
 print(f"Nova velocidade da moto: {moto.velocidade}")
 moto.empinar()
